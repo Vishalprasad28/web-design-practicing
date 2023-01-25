@@ -21,6 +21,7 @@
     
 }
 .section9 .name-field input{
+    margin: 1rem 0;
 max-width: 550px;
 width: 100%;
 padding: 1rem;
