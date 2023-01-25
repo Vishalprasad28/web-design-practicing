@@ -20,6 +20,7 @@
 .section8 .blog-content-box .blog-post{
    max-width: 300px;
    width: 100%;
+   margin: 1rem 0;
 }
 .section8 .blog-content-box .blog-post img{
     width: 100%;
