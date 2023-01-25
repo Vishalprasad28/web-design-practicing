@@ -17,12 +17,15 @@
 }
 .section9 .name-field{
     margin: 1rem 0;
+    width: 100%;
+    
 }
 .section9 .name-field input{
-max-width: 48%;
+max-width: 550px;
 width: 100%;
 padding: 1rem;
 }
+
 .section9  textarea{
 width: 100%;
 padding: 1rem;
