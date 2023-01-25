@@ -1,0 +1,79 @@
+.navigation-and-slider {
+    background-image: url(images/header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.navigation-and-slider .navigation a {
+    padding: 3rem 1.5rem;
+    font-size: 1.3rem;
+    color: white;
+    transition: 0.5s all ease-in-out;
+}
+
+.navigation-and-slider .navigation a:hover {
+    background-color: var(--yellow);
+}
+
+.navigation-and-slider .navigation h1 {
+    font-size: 6rem;
+    -webkit-text-stroke: 2px var(--yellow);
+    text-shadow: 0 0 10px var(--yellow);
+}
+.banner .container{
+    position: relative;
+    padding: 13rem 0;
+}
+
+.banner .container-extended {
+    background-color: rgba(0, 0, 0, 0.517);
+    text-align: center;
+    margin: auto;
+    max-width: 50%;
+    width: 100%;
+    padding: 4rem 2rem;
+}
+
+.banner .container-extended h1 {
+    font-size: var(--main-head);
+    text-transform: uppercase;
+    margin: 2rem 0;
+    margin-top: 0;
+}
+
+.banner .container-extended h2 {
+    font-weight: lighter;
+    font-size: var(--sub-head);
+    margin-bottom: 2rem;
+}
+
+.banner .container-extended p {
+    font-size: var(--para);
+    margin-bottom: 2rem;
+}
+
+.banner .container-extended button a {
+    padding: 0.5rem 4rem;
+    color: white;
+    border: 1px solid white;
+}
+.banner .left,.banner .right{
+    color: white;
+    font-size: 3rem;
+    font-weight: bolder;
+}
+.banner .left{
+    position:absolute;
+    top: 50%;
+    left: 5%;
+    transform: translateX(-50%);
+    color: var(--yellow);
+}
+.banner .right{
+    position:absolute;
+    top: 50%;
+    right: 5%;
+    transform: translateX(-50%);
+    color: var(--yellow);
+}

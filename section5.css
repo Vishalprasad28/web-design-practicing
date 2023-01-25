@@ -1,0 +1,60 @@
+.section5{
+    background-image: url("images/services-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section5 .container{
+    padding: 13rem 0;
+}
+.section5 .services{
+    max-width: 22%;
+    width: 100%;
+    text-align: center;
+    background-color: white;
+    padding-bottom: 0.5rem;
+}
+.section5 .services:nth-child(1){
+    background:linear-gradient(172deg,white 85%,var(--green-shade1) 85% );
+}
+.section5 .services:nth-child(2){
+    background:linear-gradient(172deg,white 85%,var(--yellow-shade1) 85% );
+}
+.section5 .services:nth-child(3){
+    background:linear-gradient(172deg,white 85%,var(--blue-shade1) 85% );
+}
+.section5 .services:nth-child(4){
+    background:linear-gradient(172deg,white 85%,var(--orange-shade1) 85% );
+}
+.section5 .services h1{
+    padding: 3rem 0;
+    color: white;
+    font-size: var(--sub-head);
+    /* background-color: var(--green); */
+}
+.section5 .services:nth-child(1) h1{
+    background: linear-gradient(172deg,var(--green-shade1) 30%,var(--green-shade2) 30% );
+}
+.section5 .services:nth-child(2) h1{
+    background: linear-gradient(172deg,var(--yellow-shade1) 30%,var(--yellow-shade2) 30% );
+}
+.section5 .services:nth-child(3) h1{
+    background: linear-gradient(172deg,var(--blue-shade1) 30%,var(--blue-shade2) 30% );
+}
+.section5 .services:nth-child(4) h1{
+    background: linear-gradient(172deg,var(--orange-shade1) 30%,var(--orange-shade2) 30% );
+
+}
+.section5 .content-head{
+    font-size: var(--para);
+    font-weight: bold;
+     margin: 1rem;
+}
+.section5 .service-content{
+    padding: 0 2rem;
+    margin-bottom: 3rem;
+}
+.section5 .services button{
+    font-size:var(--sub-head2);
+    color: white;
+    font-weight: bold;
+}

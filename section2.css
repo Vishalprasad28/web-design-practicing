@@ -1,0 +1,29 @@
+.section2{
+    background-image: linear-gradient(to right,white 50% , rgba(255, 255, 255, 0) 50%), url(images/about-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.section2 .container{
+    padding: 1.5rem 0;
+}
+.section2 .content{
+    max-width: 50%;
+    width: 100%;
+    padding: 2rem 1.5rem;
+}
+.section2 h2{
+    text-align: center;
+    font-size: var(--sub-head);
+    
+}
+.section2 .line{
+    height: 2px;
+    background:linear-gradient(to right, black 50%, var(--yellow) 50%);
+     margin: 1rem 0;
+}
+.section2 p{
+    margin-top: 2rem;
+    line-height: 1.5rem;
+}

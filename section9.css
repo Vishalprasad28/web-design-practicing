@@ -1,0 +1,40 @@
+.section9{
+    background-image:url(images/contact-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: white;
+}
+.section9  h1{
+    font-size: var(--sub-head);
+}
+.section9 .container{
+    padding: 7rem 0;
+}
+.section9  p{
+    margin:0.5rem 0;
+    font-size: var(--para);
+}
+.section9 .name-field{
+    margin: 1rem 0;
+}
+.section9 .name-field input{
+max-width: 48%;
+width: 100%;
+padding: 1rem;
+}
+.section9  textarea{
+width: 100%;
+padding: 1rem;
+margin-bottom: 1rem;
+}
+.section9 .input-field{
+    text-align: right;
+    margin-top: 3rem;
+}
+.section9 .input-field button a{
+    padding: 1rem 3rem;
+    color: var(--black-shade);
+    font-size: var(--para);
+    background-color: var(--yellow);
+}

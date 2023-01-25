@@ -1,0 +1,44 @@
+.section7{
+    padding-top: 10rem;
+}
+.section7 .head-container{
+    text-align: center;
+}
+.section7  h1{
+    font-size: var(--sub-head);
+}
+.section7 p{
+    font-size: var(--para);
+    margin: 0.5rem 0;
+}
+.section7 .gallery-images{
+    width: 100%;
+}
+.section7 .gallery-view{
+    max-height: 30%;
+    height: 100%;
+}
+.section7 .gallery-view img{
+    max-width: 25%;
+    width: 100%;
+}
+.section7 .gallery-view{
+    margin: 4rem 0;
+}
+
+.section7 .gallery-menu{
+    margin-top: 4rem ;
+}
+.section7 .gallery-menu li a{
+    padding: 1rem 0;
+    margin: 0.5rem;
+    color: var(--black-shade);
+    transition: all 0.5s ease-in-out;
+    font-size: var(--para);
+    border-bottom: 1px solid rgba(255, 255, 255, 0);
+    
+}
+.section7 .gallery-menu li a:hover{
+    color: var(--yellow);
+    border-bottom: 1px solid var(--yellow);
+}

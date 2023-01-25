@@ -1,0 +1,31 @@
+.section4{
+    background-image: linear-gradient(to left,white 50% , rgba(255, 255, 255, 0) 50%), url(images/services-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100% 0;
+}
+.section4 .container{
+    padding: 1.5rem 0;
+    align-items: unset;
+    justify-content: flex-end;
+}
+.section4 .content{
+    
+   
+    max-width: 50%;
+    width: 100%;
+    padding: 2rem 1.5rem;
+}
+.section4 h2{
+    text-align: center;
+    font-size: var(--sub-head);
+}
+.section4 .line{
+    height: 2px;
+    background:linear-gradient(to right, black 50%, var(--yellow) 50%);
+    margin: 1rem 0;
+}
+.section4 p{
+    margin-top: 2rem;
+    line-height: 1.5rem;
+}

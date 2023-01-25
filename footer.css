@@ -1,0 +1,50 @@
+footer {
+    background-image: linear-gradient(to left, var(--yellow) 50%, rgba(255, 255, 255, 0) 50%), url(images/footer-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+footer .container-extended {
+    width: 100%;
+    padding: 5rem 0;
+    align-items: unset;
+}
+footer .container-extended div {
+    max-width: 50%;
+    width: 100%;
+}
+footer  .left{
+    text-align: center;
+}
+footer .social-links{
+    margin-bottom: 1rem;
+}
+footer .left a{
+    font-size: var(--sub-head);
+     color: white;
+     padding: 1rem;
+     width: 55px;
+     height: 55px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+footer .left .owner{
+    color: var(--yellow);
+}
+footer .left li{
+    border: 1px solid white;
+    border-radius: 50%;
+    margin: 0 0.5rem;
+}
+footer .right .email{
+    color: black;
+}
+footer .right h3{
+    font-size: var(--para);
+    margin-bottom: 1.5rem;
+}
+footer .right {
+    padding-left: 3rem;
+    line-height: 1.5rem;
+}

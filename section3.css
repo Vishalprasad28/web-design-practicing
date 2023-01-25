@@ -1,0 +1,49 @@
+.section3{
+    background-image: url(images/team-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.section3 .container{
+    padding: 4rem 0;
+    text-align: center;
+}
+.section3 h1{
+    font-size: var(--sub-head);
+    margin: 0.5rem 0;
+    color: white;
+}
+.section3 p{
+    font-size: var(--para);
+    color: white;
+}
+.section3 .team-slider{
+    flex-wrap: wrap;
+    margin: 9rem 0;
+}
+.section3 .team-slider .team-members{
+    max-width: 23%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 1.5rem;
+}
+.section3 .designation{
+    color: black;
+    font-size:var(--para);
+}
+.section3 .name{
+    color: black;
+    font-size: var(--sub-head2);
+
+}
+.section3 img{
+    width: 100%;
+}
+.section3 .socials {
+    font-size: var(--sub-head2);
+    padding: 1rem;
+    color: var(--yellow);
+}
+.section3 .team-members p{
+    margin: 1rem 0;
+}
