@@ -48,3 +48,27 @@ footer .right {
     padding-left: 3rem;
     line-height: 1.5rem;
 }
+@media screen and (max-width:1100px){
+    footer {
+        background-image:url(images/footer-bg.jpg);
+      
+    }
+    footer .container-extended div {
+        max-width: 100%;
+        width: 100%;
+    }
+    footer .right {
+        margin-top: 2rem;
+        padding-left: 0;
+        line-height: 1.5rem;
+        text-align: center;
+    }
+    footer .right .email{
+        color: var(--yellow);
+    }
+    footer .container-extended {
+        width: 100%;
+        padding:1rem 0;
+        
+    }
+}

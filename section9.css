@@ -21,7 +21,7 @@
     
 }
 .section9 .name-field input{
-    margin: 1rem 0;
+margin: 1rem 0;
 max-width: 550px;
 width: 100%;
 padding: 1rem;
@@ -41,4 +41,22 @@ margin-bottom: 1rem;
     color: var(--black-shade);
     font-size: var(--para);
     background-color: var(--yellow);
+}
+@media  screen and (max-width:1100px) {
+    .section9 .name-field input{
+        margin: 1rem 0;
+        max-width: 100%;
+        width: 100%;
+        }
+        .section9 .input-field{
+            text-align: center;
+            margin-top: 2rem;
+        }
+        .section9 .input-field button a{
+            padding: 1rem 3rem;
+            color: var(--black-shade);
+            font-size: var(--para);
+            background-color: var(--yellow);
+        }
+       
 }

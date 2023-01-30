@@ -19,7 +19,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* border: 1px solid blue; */
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -51,6 +50,7 @@ button{
 
 .container {
     max-width: 1170px;
+    padding: 0 0.6rem;
     width: 100%;
     margin: auto;
 }
